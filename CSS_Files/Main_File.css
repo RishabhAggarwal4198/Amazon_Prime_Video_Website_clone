@@ -1,0 +1,15 @@
+.body{
+    
+    background: linear-gradient(to right, red, orange, yellow, green, lightblue);
+    
+}
+
+.First_Image{
+                
+    /* border-radius: 30px; */
+    height: 300px;
+    width: 300px;
+    object-fit:contain;
+    object-position:left;
+
+}

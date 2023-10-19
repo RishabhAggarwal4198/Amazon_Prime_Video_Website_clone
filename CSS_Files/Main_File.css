@@ -1,20 +1,45 @@
 .body{
     
-    background: linear-gradient(to bottom left,  rgb(36, 37, 37) 45%, rgb(136, 110, 5));
+    background:linear-gradient(to bottom left,  rgb(36, 37, 37) 45%, rgb(136, 110, 5));
     height: 1000px;
 }
 
-.DIV_1{
-    display:flex;
-    justify-content: center;
-    
+.Div_1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(67, 69, 69);
+    margin-top:0px;
 }
+
+
+.Prime_Video_logo{
+    height: 20px;
+    margin-left:10px;
+}
+
+
+.Div_2{
+    display: flex;
+    justify-content: center;
+}
+
 
 .First_Image{
 
-    margin: 30px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
     border-radius: 20px;
     height: 320px;
+}
 
+.Div_3{
+    margin-top: 20px;
+    display: grid;
+    margin-left: 20px;
+}
 
+.Div_3-1{
+    /* display: flex;
+    justify-content: space-between; */
 }

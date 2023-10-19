@@ -1,15 +1,20 @@
 .body{
     
-    background: linear-gradient(to right, red, orange, yellow, green, lightblue);
+    background: linear-gradient(to bottom left,  rgb(36, 37, 37) 45%, rgb(136, 110, 5));
+    height: 1000px;
+}
+
+.DIV_1{
+    display:flex;
+    justify-content: center;
     
 }
 
 .First_Image{
-                
-    /* border-radius: 30px; */
-    height: 300px;
-    width: 300px;
-    object-fit:contain;
-    object-position:left;
+
+    margin: 30px 10px 0px 10px;
+    border-radius: 20px;
+    height: 320px;
+
 
 }

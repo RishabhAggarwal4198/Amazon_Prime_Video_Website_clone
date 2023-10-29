@@ -1,7 +1,7 @@
 .body{
     
     background:linear-gradient(to bottom left,  rgb(0, 0, 0) 44%, rgb(136, 110, 5));
-    height: 1800px;
+    height: 2800px;
     margin: 0px 0px 0px 0px;
     font-family:Amaranth, Arial;
     font-size: large;
@@ -19,12 +19,45 @@
     color: rgb(233, 226, 226);
 }
 
+.Right_Section{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-top: 6px;
+    
+}
+
+
+.Search_box{
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(255, 255, 255);;
+    border-radius: 30px;
+    padding: 4px;
+    /* margin-top: 8px; */
+    width: 260px;
+    background-color: rgb(61, 60, 60);
+}
+
+.Search_box::placeholder{
+   padding-left: 10px;
+   color: white;
+   font-family:Amaranth, Arial;
+    font-weight: 100;
+}
+
+.Search_icon{
+    height: 20px;
+    margin-right: 10px;
+    opacity: .9;
+}
+
+
 
 .Prime_Video_logo{ 
     height: 20px;
     margin-top:4px;
 }
-
 
 .Div_2{
     display:grid;
